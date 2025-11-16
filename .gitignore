@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Placeholder files (don't push these)
+CV_PLACEHOLDER.txt
+CV_PLACEHOLDER.pdf
+PHOTO_INSTRUCTIONS.txt
