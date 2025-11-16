@@ -295,6 +295,38 @@ a:hover {
     width: 100%;
 }
 
+/* Language Toggle */
+.language-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.lang-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all var(--transition-base);
+}
+
+.lang-link:hover {
+    background: var(--card-bg);
+    color: var(--primary-color);
+}
+
+.lang-link.active {
+    background: var(--primary-color);
+    color: white;
+}
+
+.lang-separator {
+    color: var(--text-secondary);
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
