@@ -408,9 +408,34 @@ a:hover {
 }
 
 .hero-institution {
-    font-size: 1.25rem;
-    color: var(--text-secondary);
     margin-bottom: var(--spacing-md);
+}
+
+.institution-logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    transition: opacity var(--transition-fast);
+}
+
+.hero-institution a:hover .institution-logo {
+    opacity: 0.8;
+}
+
+.footer-logo {
+    margin-bottom: var(--spacing-md);
+}
+
+.footer-institution-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    opacity: 0.85;
+    transition: opacity var(--transition-fast);
+}
+
+.footer-institution-logo:hover {
+    opacity: 1;
 }
 
 .hero-tagline {
