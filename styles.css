@@ -484,29 +484,13 @@ a:hover {
     align-items: center;
 }
 
-.image-placeholder {
+.profile-photo {
     width: 350px;
     height: 350px;
-    background: linear-gradient(135deg, var(--bg-secondary), var(--bg-tertiary));
+    object-fit: cover;
     border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     border: 4px solid var(--border-color);
     box-shadow: var(--shadow-xl);
-}
-
-.image-placeholder i {
-    font-size: 4rem;
-    color: var(--text-secondary);
-    margin-bottom: var(--spacing-sm);
-}
-
-.image-placeholder p {
-    color: var(--text-secondary);
-    text-align: center;
-    font-size: 0.9rem;
 }
 
 .scroll-indicator {
@@ -1206,7 +1190,7 @@ a:hover {
         order: -1;
     }
     
-    .image-placeholder {
+    .profile-photo {
         width: 250px;
         height: 250px;
     }
